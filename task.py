@@ -11,12 +11,11 @@ class Task:
         self.isDone = False
 
     
-    def __init__(self, dbstr: str):
-        obj = json.loads(dbstr)
-        self.id = obj["id"]
-        self.title = obj["title"]
-        self.priority = obj["priority"]
-        self.isDone = obj["isDone"]
+    def __init__(self, dbstr: dict, ID: int):
+        self.title = dbstr["title"]
+        self.priority = dbstr["priority"]
+        self.isDone = False
+        self.id = ID
 
     
     def ChangeStatus(self):

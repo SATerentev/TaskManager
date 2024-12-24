@@ -8,3 +8,5 @@
 {"id": 7, "title": "TITLE_7", "priority": "normal", "isDone": false}
 {"id": 8, "title": "TITLE_8", "priority": "normal", "isDone": false}
 {"id": 9, "title": "TITLE_9", "priority": "normal", "isDone": false}
+{"id": 10, "title": "NEW TASK", "priority": "normal", "isDone": false}
+{"id": 11, "title": "NEW TASK 2", "priority": "normal", "isDone": false}
